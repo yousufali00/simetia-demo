@@ -1,0 +1,147 @@
+/*=================================
+    Bootstrap 4 Media Queries
+=================================*/
+
+/*Large devices (Desktop & Laptop)*/
+
+@media (min-width: 992px) and (max-width: 1199px){
+    #banner::before{
+        height: 33%;
+    }
+    .banner-bottom-content-left .banner-logo{
+        margin-bottom: 25px;
+    }
+    .banner-bottom-text {
+        font-size: 35px;
+        color: #fff;
+        line-height: 50px;
+    }
+    .text-line{
+        height: 90px;
+        margin-left: 120px;
+    }
+    .banner-bottom-content-right img {
+        margin-top: 85px;
+        margin-left: 10px;
+    }
+
+}
+
+/* Medium Devices (Landscape tablets and desktop)*/
+
+@media (min-width: 768px) and (max-width: 991px){
+    #banner {
+        padding-bottom: 0px;
+    }
+    #banner::before{
+        height: 20%;
+        background-position: bottom;
+    }
+    .banner-bottom-content-left .banner-logo{
+        margin: 0 auto;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .banner-bottom-text{
+        padding: 0;
+        font-size: 29px;
+        text-align: center;
+    }
+    .text-line{
+        display: none;
+    }
+    .banner-bottom-content-right img{
+        margin-top: 0;
+        margin-left: 0;
+        position: relative;
+        top: 12px;
+    }
+
+}
+
+/* Small Devices (portrait tablets and desktop)*/
+@media (min-width: 576px) and (max-width: 767px){
+
+    #banner {
+        padding-bottom: 0px;
+        background-position: bottom;
+    }
+    #banner::before{
+        height: 14%;
+    }
+    #banner .banner-top .banner-top-content {
+        width: 180px;
+        height: 130px;
+        border-bottom-left-radius: 53px;
+        border-bottom-right-radius: 53px;
+    }
+    .banner-bottom-content-left .banner-logo{
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    .banner-bottom-text{
+        padding: 0;
+        font-size: 29px;
+        text-align: center;
+    }
+    .text-line{
+        display: none;
+    }
+    .banner-bottom-content-right img{
+        margin-top: 0;
+        margin-left: 0;
+        position: relative;
+        top: 12px;
+    }
+}
+
+/* Extra Small Devices (portrait tablets and Landscape phones)*/
+
+@media (max-width: 575px){
+    #banner {
+        padding-bottom: 0;
+        background-position: bottom;
+    }
+    #banner::before{
+        height: 10%;
+    }
+    #banner .banner-top .banner-top-content {
+        width: 160px;
+        height: 130px;
+        border-bottom-left-radius: 53px;
+        border-bottom-right-radius: 53px;
+    }
+    .banner-top .banner-top-content .banner-top-text {
+        font-size: 18px;
+        font-weight: lighter;
+    }
+    .banner-bottom-content-left .banner-logo{
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    .banner-bottom-content-left .banner-logo img{
+        width: auto;
+        height: auto;
+    }
+    .banner-bottom-text{
+        padding: 0;
+        font-size: 29px;
+        text-align: center;
+    }
+    .text-line{
+        display: none;
+    }
+    .banner-bottom-content-right img{
+        margin-top: 0;
+        margin-left: 0;
+        position: relative;
+        top: 12px;
+    }
+    
+}
+
+@media (min-width: 400px) and (max-width: 575px){
+    #banner::before{
+        height: 13%;
+    }
+}

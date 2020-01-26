@@ -1,0 +1,257 @@
+/*
+  Theme Name: Construction - Clean Construction HTML5 Template
+  Author: nilartstudio
+  Description: Construction  HTML5 Bootstrap 4 template.
+  Version: 1.0
+*/
+
+/* CSS Index
+-----------------------------------
+
+*/
+
+
+
+/* 1. Theme default css */
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700|Work+Sans:300,400,500,600,700,800');
+ body {
+	font-family: 'Work Sans', sans-serif;
+	font-weight: normal;
+	font-style: normal;
+}
+.img {
+	max-width: 100%;
+	-webkit-transition: all 0.3s ease-out 0s;
+	transition: all 0.3s ease-out 0s;
+}
+a,
+.button,button {
+	-webkit-transition: all 0.3s ease-out 0s;
+	transition: all 0.3s ease-out 0s;
+}
+a:focus,
+.button:focus {
+	text-decoration: none;
+	outline: none;
+}
+button{cursor: pointer}
+a:focus,
+a:hover,
+.portfolio-cat a:hover,
+.footer -menu li a:hover {
+	text-decoration: none;
+}
+a,
+button {
+	color: #1696e7;
+	outline: medium none;
+}
+input:focus,textarea:focus,:focus{outline: 0}
+button:focus {
+  outline: 0 none;
+}
+.uppercase {
+	text-transform: uppercase;
+}
+.capitalize {
+	text-transform: capitalize;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Poppins', sans-serif;
+	font-weight: normal;
+	color: #333333;
+	margin-top: 0px;
+	font-style: normal;
+	font-weight: 400;
+	text-transform: normal;
+}
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+	color: inherit;
+}
+h1 {
+	font-size: 40px;
+	font-weight: 500;
+}
+h2 {
+	font-size: 35px;
+}
+h3 {
+	font-size: 28px;
+}
+h4 {
+	font-size: 22px;
+}
+h5 {
+	font-size: 18px;
+}
+h6 {
+	font-size: 16px;
+}
+ul {
+	margin: 0px;
+	padding: 0px;
+}
+li {
+	list-style: none
+}
+p {
+	font-size: 17px;
+	font-weight: normal;
+	line-height: 30px;
+	color: #777777;
+	margin-bottom: 15px;
+}
+hr {
+	border-bottom: 1px solid #eceff8;
+	border-top: 0 none;
+	margin: 30px 0;
+	padding: 0;
+}
+label {
+	color: #7e7e7e;
+	cursor: pointer;
+	font-size: 14px;
+	font-weight: 400;
+}
+*::-moz-selection {
+	background: #d6b161;
+	color: #fff;
+	text-shadow: none;
+}
+::-moz-selection {
+	background: #444;
+	color: #fff;
+	text-shadow: none;
+}
+::selection {
+	background: #444;
+	color: #fff;
+	text-shadow: none;
+}
+*::-webkit-input-placeholder {
+	color: #555555;
+	font-size: 14px;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #555555;
+	font-size: 14px;
+	opacity: 1;
+}
+*::placeholder {
+	color: #555555;
+	font-size: 14px;
+	opacity: 1;
+}
+/* ============================
+		Banner 
+============================ */
+#banner{
+	position: relative;
+	background:url('../images/bg-top.png');
+	background-size: cover;
+	overflow: hidden
+}
+#banner::before{
+	content: '';
+	position: absolute;
+	background:url('../images/banner-bottom.png');
+	background-size: cover;
+	left: -1px;
+	bottom: 0;
+	width: 100%;
+	height: 42%;
+	overflow: visible!important;
+}
+#banner .banner-top .banner-top-content{
+	background: #466596;
+	width: 250px;
+	height: 120px;
+	margin: 0 auto;
+	text-align: center;
+	border-bottom-left-radius: 64px;
+	border-bottom-right-radius: 64px; 
+}
+.banner-top .banner-top-content .icon{
+	padding-top: 25px;
+}
+.banner-top .banner-top-content .icon i{
+	font-size: 25px;
+	transform: rotate(15deg);
+}
+.banner-top .banner-top-content .banner-top-text{
+	font-size: 22px;
+}
+.banner-top .banner-top-content .icon i,
+.banner-top .banner-top-content .banner-top-text{
+	color: #fff;
+}
+.banner-bottom-content-left .banner-logo{
+	width: 75%;
+	padding-top: 50px;
+}
+.banner-bottom-content-left .banner-logo img{
+	width: 350px;
+	height: 110px;
+}
+.banner-bottom-text {
+    font-size: 29px;
+    color: #fff;
+    line-height: 38px;
+    margin-top: 35px;
+    padding-left: 3%;
+}
+.banner-bottom-text span{
+	color: #65C1AE;;
+}
+.text-line {
+    display: block;
+    width: 2px;
+	height: 150px;
+    margin-left: 102px;
+	background: #fff;
+	overflow: visible;
+}
+
+/* Banner right part (image) */
+.banner-bottom-content-right{
+	
+}
+.banner-bottom-content-right img{
+	margin-top: 70px;
+	margin-left: 55px;
+	
+}
+
+/* ============================
+		Business
+============================ */
+
+#business{
+	
+	background-size: cover;
+	background-position: center;
+	padding: 200px 0;
+}
+
+.section-headding{
+	font-size: 32px;
+}
+
+
+
+
+
+
+
+
